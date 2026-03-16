@@ -51,7 +51,7 @@
     background-size: 420px auto;
     background-position: 0 center;
     opacity: 0.15;
-    animation: waveLeft 2s linear infinite;
+    animation: waveLeft 5s linear infinite;
     pointer-events: none;
     z-index: 1;
 }
