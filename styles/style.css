@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'PSBold';
-    src: url('/styles/ps-bold_font.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'Inter';
     src: url('/styles/Inter_18pt-Bold.ttf') format('truetype');
 }
@@ -12,53 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.titleH1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'PSBold', sans-serif;
-}
-
-.titleH1 a {
-    text-decoration: none;
-    color: inherit;
-    transition: opacity 0.3s;
-}
-
-.titleH1 a:hover {
-    opacity: 0.8;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px; 
-    color: white;
-
-    background: linear-gradient(0deg, rgb(95, 0, 168) 0%, rgba(70, 0, 168, 1) 100%);
-    border-radius: 15px;
-    margin: 10px; 
-}
-
-.nav {
-    display: flex;
-    gap: 20px; 
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    transition: border-bottom 0.2s;
-}
-
-.nav a:hover {
-    border-bottom: 2px solid white; 
 }
 
 .about-index {

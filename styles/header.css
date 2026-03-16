@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'PSBold';
+    src: url('/styles/ps-bold_font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/styles/Inter_18pt-Bold.ttf') format('truetype');
+}
+
+.titleH1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PSBold', sans-serif;
+}
+
+.titleH1 a {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s;
+}
+
+.titleH1 a:hover {
+    opacity: 0.8;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    color: white;
+    background: linear-gradient(0deg, rgb(95, 0, 168) 0%, rgba(70, 0, 168, 1) 100%);
+    border-radius: 15px;
+    margin: 10px;
+    overflow: hidden;
+    min-height: 85px;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300%;
+    height: 100%;
+    background-image: url("/styles/assets/wavebar.svg");
+    background-repeat: repeat-x;
+    background-size: 420px auto;
+    background-position: 0 center;
+    opacity: 0.15;
+    animation: waveLeft 2s linear infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@keyframes waveLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-420px);
+    }
+}
+
+.header > * {
+    position: relative;
+    z-index: 2;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid white;
+}
