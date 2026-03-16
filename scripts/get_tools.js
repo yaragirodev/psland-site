@@ -1,4 +1,4 @@
-fetch('list/list_tools.json')
+fetch('/list/list_tools.json')
   .then(response => response.json())
   .then(tools => {
     const container = document.getElementById('cards-container');
@@ -10,7 +10,8 @@ fetch('list/list_tools.json')
       card.innerHTML = `
         <h2>${tool.title}</h2>
         <p>${tool.description}</p>
-        <a href="${tool.link}">Открыть</a>
+        <a href="${tool.download_link}">Download</a>
+        <a href="${tool.source}">Source</a>
       `;
 
       container.appendChild(card);
