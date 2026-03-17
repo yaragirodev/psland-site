@@ -4,5 +4,12 @@
         "description": "A .bat tool for editing lines.qrc file from PS3's firmware, which is XMB wave.",
         "download_link": "/files/ps3wavestool.zip",
         "source": "https://www.pspx.ru/forum/showthread.php?t=103980"
+    },
+
+    {
+        "title": "godot-vita",
+        "description": "A Godot Engine 3.5 modification that allows you write your own games for PSVita!",
+        "download_link": "https://github.com/SonicMastr/godot-vita/releases",
+        "source": "https://github.com/SonicMastr/godot-vita"
     }
 ]
