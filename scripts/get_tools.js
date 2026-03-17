@@ -12,6 +12,7 @@ fetch('/list/list_tools.json')
         <p>${tool.description}</p>
         <a href="${tool.download_link}">Download</a>
         <a href="${tool.source}">Source</a>
+        <br>
       `;
 
       container.appendChild(card);
