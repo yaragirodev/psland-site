@@ -11,5 +11,11 @@
         "description": "A Godot Engine 3.5 modification that allows you write your own games for PSVita!",
         "download_link": "https://github.com/SonicMastr/godot-vita/releases",
         "source": "https://github.com/SonicMastr/godot-vita"
+    },
+    {
+        "title": "PS3GameExtractor",
+        "description": "Tool to decrypt/unpack PS3-related files, such as PKG, PUP, PSARC! (RUS)",
+        "download_link": "/files/ps3gameextractor.exe",
+        "source": "https://www.pspx.ru/forum/showthread.php?t=108199"
     }
 ]
